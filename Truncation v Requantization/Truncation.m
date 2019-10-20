@@ -1,4 +1,4 @@
-function img = ChangeReso(b,I)
+function img = Truncation(b,I)  % Returns Image using the "truncation method" converts the original image 'x' bit image to 'b' bits
     L = imread(I);
     S = size(L);
     S = S(1);
