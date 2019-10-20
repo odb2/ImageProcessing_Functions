@@ -1,4 +1,4 @@
-function img = ChangeReso2(b,I)
+function img = Requantization(b,I)   %Returns Image using the Requantization method converts the original image 'x' bit image to 'b' bits
     L = imread(I);
     S = size(L);
     S = S(1);
